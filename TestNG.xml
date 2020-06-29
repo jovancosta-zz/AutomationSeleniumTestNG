@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Selenium Demo" verbose="10">
+	<test name="Demo Calculadora" preserve-order="true">
+		<classes>
+			<class name="br.com.testngselenium.WebDriverDemo" />
+			<class name="br.com.testngselenium.WebDriverTestNGDemo" />
+			<class name="br.com.testngselenium.TestNGAnnotationsDemo" />
+		</classes>
+	</test>
+</suite>
